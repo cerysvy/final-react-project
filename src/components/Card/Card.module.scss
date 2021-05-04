@@ -1,0 +1,32 @@
+.card {
+  height: 300px;
+  width: 275px;
+  background-color: #f8f1f1;
+  max-height: 400px;
+  max-width: 275px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
+
+  h1 {
+    margin: 5px;
+    color: #eb5e0b;
+  }
+
+  h2 {
+    margin: 5px;
+    font-size: 15px;
+    color: #eb5e0b;
+  }
+
+  p {
+    margin: 0 10px 0;
+    font-size: 15px;
+    max-height: 200px;
+    color: #5eaaa8;
+  }
+}

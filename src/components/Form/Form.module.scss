@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
+
+.formHeader {
+  height: 50px;
+  color: #eb5e0b;
+  -webkit-text-stroke: 0.75px  #f8f1f1;
+  background-color: #eb5e0b;
+  font-family: "Antonio";
+  font-size: 40px;
+  font-weight: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.form {
+  height: 60vh;
+  width: 50vw;
+  max-height: 60vh;
+  max-width: 50vw;
+  background-color: #f8f1f1;
+  display: flex;
+  flex-direction: column;
+
+  .formContents {
+    margin: 10px;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input {
+    align-self: center;
+    margin: 10px;
+    width: 40vw;
+  }
+
+  .review {
+    height: 25vh;
+  }
+
+  label {
+    align-self: center;
+    width: 40vw;
+  }
+
+  .types {
+    align-self: center;
+    margin: 10px;
+    width: 40vw;
+  }
+
+  button {
+    align-self: center;
+    margin: 10px;
+    height: 4vh;
+    width: 10vw;
+    border: none;
+    background-color: #5eaaa8;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #f8f1f1;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+  }
+
+  button:hover {
+    background-color: #eb5e0b
+  }
+
+  button:active {
+    background-color: #eb5e0b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+}
