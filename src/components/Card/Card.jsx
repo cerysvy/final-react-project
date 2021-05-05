@@ -1,12 +1,14 @@
 import React from 'react';
 import styles from "./Card.module.scss";
 
-const Card = () => {
+const Card = (props) => {
+
   return (
     <div className={styles.card}>
-      <h1>Title</h1>
-      <h2>Sub Info</h2>
-      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+      <p>"{props.claim.review}"</p>
+      <h1>{props.claim.name}</h1>
+      <h2>Location: {props.claim.location}</h2>
+      <h2>Insurance type: {props.claim.type}</h2>
     </div>
   )
 }

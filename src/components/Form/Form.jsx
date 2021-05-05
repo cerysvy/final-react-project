@@ -16,7 +16,7 @@ const Form = () => {
           <option value="travel">Travel</option>
           <option value="pet">Pet</option>
         </select>
-        <input type="text" className={styles.review} placeholder="Your review..."/>
+        <textarea type="text" className={styles.review} placeholder="Your review..."></textarea>
         <button type="submit">Submit</button>
       </form>
     </div>
