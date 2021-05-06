@@ -17,7 +17,7 @@ const Form = () => {
   }
 
   const addUserReview = () => {
-    fetch("https://shweta-312709.nw.r.appspot.com//claim", {
+    fetch("https://cerys-api-dot-shweta-312709.nw.r.appspot.com/claim", {
       method: 'POST',
       body: JSON.stringify({
         "name": name,
