@@ -12,7 +12,7 @@ const App = () => {
   const getClaims = () => {
     fetch("http://localhost:8080/claims")
       .then(response => response.json())
-      .then(json => setClaims(json.slice(0, 3)))
+      .then(json => setClaims(json.slice(0, 5)))
       .catch(error => console.log(error))
   }
 

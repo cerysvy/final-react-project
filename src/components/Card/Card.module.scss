@@ -4,7 +4,7 @@
   background-color: #f8f1f1;
   max-height: 400px;
   max-width: 275px;
-  margin: 40px;
+  margin: 40px 20px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,6 +24,7 @@
   }
 
   p {
+    height: 160px;
     margin: 0 10px 0;
     font-size: 15px;
     max-height: 200px;
