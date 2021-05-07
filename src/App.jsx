@@ -10,7 +10,7 @@ const App = () => {
   const [claims, setClaims] = useState([]);
 
   const getClaims = () => {
-    fetch("https://cerys-api-dot-shweta-312709.nw.r.appspot.com/claim")
+    fetch("https://cerys-api-dot-shweta-312709.nw.r.appspot.com/claims")
       .then(response => response.json())
       .then(json => setClaims(json.slice(0, 5)))
       .catch(error => console.log(error))
